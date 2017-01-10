@@ -1,4 +1,4 @@
 int scale2(long x, long y, long z) {
-  long t = 5 * z + y * 2 + x * 8;
+  long t = 5 * x + 2 * y + 8 * z;
   return t;
 }
